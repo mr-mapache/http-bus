@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "http-bus"
+version = "0.1.0"
+description = ""
+authors = ["mr-mapache <eric.m.cardozo@mi.unc.edu.ar>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiohttp = "^3.11.11"
+fast-depends = "^2.4.12"
+
+
+[tool.poetry.group.tests.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
